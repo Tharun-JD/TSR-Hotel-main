@@ -29,17 +29,17 @@ export default function Header() {
     <>
       <header className={`fixed top-0 left-0 right-0 z-50 transition-smooth ${
         isScrolled
-          ? 'bg-black/80 backdrop-blur-lg shadow-lg py-3'
-          : 'bg-black/30 backdrop-blur-sm py-5'
+          ? 'bg-black/80 backdrop-blur-lg shadow-lg py-2'
+          : 'bg-black/30 backdrop-blur-sm py-3'
       }`}>
         <div className="container mx-auto px-6 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 animate-fade-in-down" style={{ animationDelay: '0.1s' }}>
-            <img src={logoImg} alt="TSR Hotels Logo" className={`w-auto transition-all duration-300 ${isScrolled ? 'h-10' : 'h-14'}`} />
-            <span className={`text-white font-medium tracking-wide uppercase transition-all duration-300 ${isScrolled ? 'text-lg' : 'text-xl'}`}>TSR Hotel</span>
+            <img src={logoImg} alt="TSR Hotels Logo" className={`w-auto transition-all duration-300 ${isScrolled ? 'h-8' : 'h-11'}`} />
+            <span className={`text-white font-medium tracking-wide uppercase transition-all duration-300 ${isScrolled ? 'text-sm' : 'text-base'}`}>TSR Hotel</span>
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-10">
             {navLinks.map((item) => {
               const isActive = location.pathname === item.href;
               return (
