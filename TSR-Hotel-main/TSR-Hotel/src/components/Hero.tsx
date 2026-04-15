@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40"></div>
       </div>
 
-      <div className="relative z-10 text-left max-w-2xl animate-fade-in-up bg-white/5 backdrop-blur-[2px] border border-white/10 p-6 md:p-10 rounded-sm shadow-xl ml-6 md:ml-12 transition-all duration-700 hover:bg-white/10 hover:backdrop-blur-md hover:border-white/30 hover:scale-[1.02] hover:shadow-2xl cursor-default group" style={{ animationDelay: '0.3s' }}>
+      <div className="relative z-10 text-left max-w-2xl animate-fade-in-up bg-white/30 backdrop-blur-[2px] border border-white/40 p-6 md:p-10 rounded-sm shadow-xl ml-6 md:ml-12 transition-all duration-700 hover:bg-black/60 hover:backdrop-blur-md hover:border-white/30 hover:scale-[1.02] hover:shadow-2xl cursor-default group" style={{ animationDelay: '0.3s' }}>
         <h1 className="text-white text-3xl md:text-5xl lg:text-7xl font-light mb-8 md:mb-12 leading-[1.1] tracking-widest uppercase">
           <span className="block animate-fade-in-up mb-2" style={{ animationDelay: '0.4s' }}>
             A PLACE WHERE
